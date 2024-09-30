@@ -1,0 +1,38 @@
+{
+    "project_name": "CRM WhatsApp Integration",
+    "status": "In Progress",
+    "language": "JavaScript",
+    "dependencies": {
+      "node_version": "v20.17.0",
+      "npm_packages": [
+        "express",
+        "@whiskeysockets/baileys",
+        "qrcode-terminal"
+      ]
+    },
+    "structure": {
+      "server": {
+        "app.js": "Main express server",
+        "services": {
+          "BaileysService.js": "Handles WhatsApp integration"
+        },
+        "controllers": {
+          "CustomerController.js": "Customer data management",
+          "TicketController.js": "Ticket management",
+          "WhatsAppController.js": "Handles WhatsApp API routes"
+        }
+      },
+      "client": "Frontend to be implemented (Vue.js  i have  alerdy template  to user you cane  see ./javascript-version )",
+      "database": "Not yet implemented"
+    },
+    "functionality": {
+      "whatsapp_integration": "Using Baileys for WhatsApp communication",
+      "qrcode": "Displaying WhatsApp QR code in terminal using qrcode-terminal"
+    },
+    "next_steps": [
+      "Complete Baileys connection",
+      "Add database models (MongoDB or PostgreSQL)",
+      "Start frontend development"
+    ]
+  }
+  
